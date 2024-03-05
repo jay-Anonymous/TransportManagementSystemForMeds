@@ -1,7 +1,7 @@
 # ########################### #
 # Base Superset dependencies  #
 # ########################### #
-aiohttp==3.7.4.post0
+aiohttp==3.9.2
     # via slackclient
 alembic==1.6.5
     # via flask-migrate
@@ -48,17 +48,17 @@ cron-descriptor==1.2.24
     # via apache-superset
 croniter==1.0.15
     # via apache-superset
-cryptography==3.4.7
+cryptography==42.0.2
     # via apache-superset
 defusedxml==0.7.1
     # via python3-openid
 deprecation==2.1.0
     # via apache-superset
-dnspython==2.1.0
+dnspython==2.6.1
     # via email-validator
 email-validator==1.1.3
     # via flask-appbuilder
-flask==1.1.4
+flask==2.2.5
     # via
     #   apache-superset
     #   flask-appbuilder
@@ -71,7 +71,7 @@ flask==1.1.4
     #   flask-openid
     #   flask-sqlalchemy
     #   flask-wtf
-flask-appbuilder==3.4.5
+flask-appbuilder==4.3.11
     # via apache-superset
 flask-babel==1.0.0
     # via flask-appbuilder
@@ -124,7 +124,7 @@ itsdangerous==1.1.0
     #   apache-superset
     #   flask
     #   flask-wtf
-jinja2==2.11.3
+jinja2==3.1.3
     # via
     #   flask
     #   flask-babel
@@ -134,7 +134,7 @@ kombu==4.6.11
     # via celery
 korean-lunar-calendar==0.2.1
     # via holidays
-mako==1.1.4
+mako==1.2.2
     # via alembic
 markdown==3.3.4
     # via apache-superset
@@ -158,7 +158,7 @@ multidict==5.1.0
     # via
     #   aiohttp
     #   yarl
-numpy==1.21.1
+numpy==1.22.2
     # via
     #   pandas
     #   pyarrow
@@ -176,11 +176,11 @@ polyline==1.4.0
     # via apache-superset
 prison==0.2.1
     # via flask-appbuilder
-pyarrow==5.0.0
+pyarrow==14.0.1
     # via apache-superset
 pycparser==2.20
     # via cffi
-pyjwt==1.7.1
+pyjwt==2.4.0
     # via
     #   apache-superset
     #   flask-appbuilder
@@ -275,7 +275,7 @@ vine==1.3.0
     #   celery
 webencodings==0.5.1
     # via bleach
-werkzeug==1.0.1
+werkzeug==2.3.8
     # via
     #   flask
     #   flask-jwt-extended
@@ -328,7 +328,7 @@ mysqlclient==2.1.0
     # via -r requirements/development.in
 openpyxl==3.0.7
     # via tabulator
-pillow==9.0.0
+pillow==10.2.0
     # via -r requirements/development.in
 progress==1.6
     # via -r requirements/development.in
@@ -368,3 +368,4 @@ unicodecsv==0.14.1
     #   tabulator
 xlrd==2.0.1
     # via tabulator
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
