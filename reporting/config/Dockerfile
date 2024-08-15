@@ -1,4 +1,4 @@
-FROM alpine:3.11
+FROM alpine:3.18.8
 
 COPY ./services /config
 COPY ./init.sh /init.sh
