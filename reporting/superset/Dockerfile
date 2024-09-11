@@ -1,4 +1,4 @@
-FROM python:3.8.13
+FROM python:3.12.5
 
 # Superset version
 ARG SUPERSET_VERSION=1.5.2
