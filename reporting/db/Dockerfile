@@ -1,4 +1,4 @@
-FROM alpine:3.11
+FROM alpine:3.20.3
 
 COPY ./docker-entrypoint-initdb.d /docker-entrypoint-initdb.d
 
