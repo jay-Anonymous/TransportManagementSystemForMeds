@@ -1,7 +1,7 @@
 # ########################### #
 # Base Superset dependencies  #
 # ########################### #
-aiohttp==3.7.4.post0
+aiohttp==3.13.3
     # via slackclient
 alembic==1.6.5
     # via flask-migrate
@@ -267,7 +267,7 @@ typing-extensions==3.10.0.0
     # via
     #   aiohttp
     #   apache-superset
-urllib3==1.26.6
+urllib3==2.6.3
     # via selenium
 vine==1.3.0
     # via
