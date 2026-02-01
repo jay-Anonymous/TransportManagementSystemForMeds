@@ -1,4 +1,4 @@
-FROM alpine:3.11
+FROM alpine:3.23.3
 
 COPY log/logback.xml /config/log/logback.xml
 
